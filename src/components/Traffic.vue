@@ -10,7 +10,7 @@
 <script>
 import Light from './Light.vue'
 
-const times = [5,4,7];
+const times = [10,3,15];
 
 export default {
   props:['lightsState'],
@@ -97,10 +97,17 @@ export default {
 </script>
 
 <style>
+ .traffic{
+   display: inline-block;
+   margin: 20px;
+   padding: 20px;
+   background: black;
+ }
  .counter{
-   width:50px;
-   margin-top: 10px;
+   width:100%;
+   margin-top: 20px;
    font-size:1.5em;
    text-align: center;
+   color: white;
  }
 </style>
